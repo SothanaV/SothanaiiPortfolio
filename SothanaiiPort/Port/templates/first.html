@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% load static %} {% block content %}{% load widget_tweaks %}
+<div class="navigation">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header nav_2">
+                    <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                     <ul class="nav navbar-nav">
+                        <li class="active"><a href="{% url "sothana"%}" class="act">Sothana</a></li>
+                        <li><a href="{% url "study"%}">Study</a></li>
+                        <li><a href="{% url "reward"%}">Reward</a></li>
+                        <li><a href="{% url "activity"%}">Activity</a></li>
+                        <li><a href="{% url "tarlent"%}">Tarlent</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+<div class="uk-section-muted">
+	<div class="container">
+		<div class="uk-container">
+			<h1></h1>
+			<h2 class="thai_font hade-home">โศธนะ วิชาเรือง คือใคร?</h2>
+			<div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+				<div>
+					<div class="uk-child-width-1-2@m uk-child-width-1-2@s" uk-grid>
+						<div>
+							<div>
+								<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/2.jpg" %}">
+							</div>
+						</div>
+						<div>
+							<div>
+								<h2 class="thai_font">ผม ชื่อโศธนะ  วิชาเรือง</h2>
+								<h3 class="thai_font">ชื่อเล่น นาย</h3>
+								<h3 class="thai_font">เกิดเมื่อวันที่ 16 กรกฏาคม 2542  อายุ 18ปี</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %} {% block script %} {% endblock script %}
