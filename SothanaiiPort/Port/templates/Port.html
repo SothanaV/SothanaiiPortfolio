@@ -1,0 +1,56 @@
+{% extends 'base.html' %} {% load static %} {% block content %}{% load widget_tweaks %}
+<div class="navigation">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header nav_2">
+                    <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                     <ul class="nav navbar-nav">
+                        <li><a href="{% url "sothana"%}" class="act">Sothana</a></li>
+                        <li><a href="{% url "study"%}">Study</a></li>
+                        <li><a href="{% url "reward"%}">Reward</a></li>
+                        <li><a href="{% url "activity"%}">Activity</a></li>
+                        <li><a href="{% url "tarlent"%}">Talent</a></li>
+                        <li><a href="{% url "Work"%}">Work</a></li>
+                        <li class="active"><a href="{% url "port"%}">PortfolioBook</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+	<div class="col-sm-12"> <img class="img-box" src="{% static "port/1.jpg" %}" style=""> </div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/2.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/3.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/4.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/5.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/6.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/7.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/8.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/9.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/10.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/11.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/12.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/13.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/14.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/15.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/16.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/17.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/18.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/19.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/20.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/21.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/22.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/23.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/24.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/25.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/26.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/27.jpg" %}" style=""></div>
+	<div class="col-sm-4"><img class="img-box" src="{% static "port/28.jpg" %}" style=""></div>
+
+{% endblock %} {% block script %} {% endblock script %}

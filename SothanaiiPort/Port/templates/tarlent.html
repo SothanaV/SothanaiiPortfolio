@@ -16,36 +16,93 @@
                         <li><a href="{% url "study"%}">Study</a></li>
                         <li><a href="{% url "reward"%}">Reward</a></li>
                         <li><a href="{% url "activity"%}">Activity</a></li>
-                        <li class="active"><a href="{% url "tarlent"%}">Tarlent</a></li>
+                        <li class="active"><a href="{% url "tarlent"%}">Talent</a></li>
+                        <li><a href="{% url "Work"%}">Work</a></li>
+                        <li><a href="{% url "port"%}">PortfolioBook</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
+
 <div class="uk-section-muted">
 	<div class="container">
 		<div class="uk-container">
 			<h1></h1>
-			<h2 class="thai_font hade-home">ความามารถพิเศษ</h2>
-			<div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
-				<div>
-					<div class="uk-child-width-1-2@m uk-child-width-1-2@s" uk-grid>
-						<div>
-							<div>
-								<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/2.jpg" %}">
-							</div>
+			<h1 class="thai_font hade-home">ความสามารถพิเศษ</h1>
+			<h1></h1>
+			<h2 class="thai_font"> เขียนโปรแกรม </h2>
+				
+						<div class="col-sm-4">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/7.png" %}">
+							<p></p>
+							<h3 class="thai_font" style="text-align: center;">Python</h3>
 						</div>
-						<div>
-							<div>
-								<h2 class="thai_font">ผม ชื่อโศธนะ  วิชาเรือง</h2>
-								<h3 class="thai_font">ชื่อเล่น นาย</h3>
-								<h3 class="thai_font">เกิดเมื่อวันที่ 16 กรกฏาคม 2542  อายุ 18ปี</h3>
-							</div>
+						<div class="col-sm-4">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/5.png" %}">
+							<p></p>
+							<h3 class="thai_font" style="text-align: center;">Html/Css/JavaScript</h3>
 						</div>
-					</div>
-				</div>
-			</div>
+						<div class="col-sm-4">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/6.png" %}">
+							<p></p>
+							<h3 class="thai_font" style="text-align: center;">C/C++/C#</h3>
+						</div>
+						<div class="col-sm-12">
+							<h3 style="text-align: center;">See More in MyGitHub <a href="https://github.com/SothanaV">https://github.com/SothanaV</a>
+						</div>
 		</div>
 	</div>
 </div>
+
+
+<div class="uk-section-defult">
+	<div class="container">
+		<div class="uk-container">
+		<h1></h1>
+			<h2 class="thai_font" style="text-align: right;"> ถ่ายภาพ </h2>
+				
+						<div class="col-sm-6">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/10.jpg" %}">
+						</div>
+						<div class="col-sm-6">
+							<h1></h1>
+							<h3 class="thai_font" style="text-align: center;">ช่างภาพ โรงเรียนและช่างภาพอิสระ</h3>
+						</div>
+						
+		</div>
+	</div>
+</div>
+
+<div class="uk-section-muted">
+	<div class="container">
+		<div class="uk-container">
+			<h1></h1>
+			<h2 class="thai_font"> อิเล็กทรอนิกส์ </h2>
+						<div class="col-sm-6">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/4.jpg" %}">
+							<p></p>
+							<h3 class="thai_font" style="text-align: center;">การเขียนแผงวงจร</h3>
+						</div>
+						<div class="col-sm-6">
+							<img class="uk-align-center  uk-margin-remove-adjacent img-logo" src="{% static "image/8.png" %}">
+							<p></p>
+							<h3 class="thai_font" style="text-align: center;">การเชื่อมต่ออุปกรณ์</h3>
+						</div>
+
+						
+		</div>
+	</div>
+</div>
+
+<div class="uk-section-defult">
+	<div class="container">
+		<div class="uk-container">
+			<h1></h1>
+			<h2 class="thai_font"> รับรอง </h2>
+							<iframe class="col-sm-8" style="height: 1200px; text-align:center;" src="{% static "image/11.png" %}"></iframe>
+		</div>
+	</div>
+</div>
+
 {% endblock %} {% block script %} {% endblock script %}

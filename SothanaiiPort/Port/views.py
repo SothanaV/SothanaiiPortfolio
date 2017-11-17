@@ -16,3 +16,7 @@ def activity(request):
 	return render(request,'activity.html')
 def tarlent(request):
 	return render(request,'tarlent.html')
+def port(request):
+	return render(request,'port.html')
+def work(request):
+	return render(request,'work.html')

@@ -9,4 +9,6 @@ urlpatterns = [
 	url(r'^activity/?$', views.activity, name='activity'),
 	url(r'^reward/?$', views.reward, name='reward'),
 	url(r'^tarlent/?$', views.tarlent, name='tarlent'),
+	url(r'^port/?$', views.port, name='port'),
+	url(r'^work/?$', views.work, name='Work'),
 ]
